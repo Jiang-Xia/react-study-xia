@@ -8,9 +8,10 @@ import Clock from './clock';
 import Toggle from './toggle';
 import LoginControl  from './loginControl ';
 
-
-
-
+/* 
+   react hook
+ */
+import Hook  from './hook ';
 
 
 import './style.css';
@@ -30,6 +31,12 @@ class App extends Component {
   render() {
     return (
       <div>
+        <h1>============~hook~==============</h1>
+        <Hook />
+        <h1>============~hook~==============</h1>
+        <br/>
+        <br/>
+        <br/>
         <Welcome name={this.state.name} />
         <Welcome name="Sara" />
         <h3>==========================</h3>
